@@ -1,5 +1,5 @@
 {
-    "name": "TigerRanger/math",
+    "name": "tigerranger/math",
     "type": "test",
     "description": "This is My first test Package ",
     "authors": [
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TigerRanger\\Math\\": "app/"
+            "tigerranger\\Math\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TigerRanger\\Test\\": "test/"
+            "tigerranger\\Test\\": "test/"
         }
     },
     "license": "LGPL-2.1"
