@@ -1,0 +1,33 @@
+{
+    "name": "nazmul/math",
+    "type": "test",
+    "description": "This is My first test Package ",
+    "authors": [
+        {
+            "name": "Md. Nazmul Alam",
+            "email": "omerabba009@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-ctype": "*",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.7"
+    },
+    "suggest": {
+        "psr/log": "For optional PSR-3 debug logging"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Nazmul\\Math\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nazmul\\Test\\": "test/"
+        }
+    },
+    "license": "LGPL-2.1"
+}
