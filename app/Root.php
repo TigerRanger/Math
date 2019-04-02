@@ -1,5 +1,5 @@
 <?php
-namespace TigerRanger\Math;
+namespace tigerranger\Math;
 
 
 class Root{
